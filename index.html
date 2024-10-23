@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Selamat Datang di Web Kami!</h1>
+        <p>Website ini bertujuan untuk memenuhi tugas TIK. Mari kita main batu gunting kertas yuk! :]</p>
+    </section>
+
+    <div class="game-container">
+        <h2>Batu, Gunting, Kertas</h2>
+        <h3>Komputer vs. Kamu</h3>
+        <button onclick="playGame('batu')">Batu</button>
+        <button onclick="playGame('gunting')">Gunting</button>
+        <button onclick="playGame('kertas')">Kertas</button>
+        <p id="gameResult"></p>
+    </div>    
+
+    <footer>
+        <p>© 2024 Kelompok 1 XI-11. All Rights Reserved.</p>
+    </footer>    
+
+    <script src="game.js"></script>
+
+</body>
+</html>

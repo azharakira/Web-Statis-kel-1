@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('bgputih2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    min-height: 100vh
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(99, 167, 154, 0.46); 
+    z-index: -1; 
+}
+
+header {
+    background-color: #333;
+    padding: 1em 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero, .content {
+    text-align: center;
+    padding: 2em;
+}
+
+.hero {
+    background-color: #5A9;
+    color: white;
+}
+
+.content {
+    background-color: white;
+    margin: 1em auto;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 0 0 1em 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px 0;
+    text-align: center;
+    border: 2px solid #ddd; 
+}
+
+.contact-profiles {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin-top: 20px; 
+}
+
+.profile {
+    border: 2px solid ; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 10px; 
+    width: 80%; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.profile h2 {
+    color: #2c3e50;
+}
+
+.profile a {
+    color: #3498db; 
+    text-decoration: none; 
+}
+
+.profile a:hover {
+    text-decoration: underline; 
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px 10px 0 0; 
+}
+
+body {
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px 10px 0 0;  
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #bbb;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #2f986c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e674d;
+}
+
+#gameResult {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.gallery-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05); 
+}
